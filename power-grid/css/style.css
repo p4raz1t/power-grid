@@ -1,5 +1,7 @@
 body, html{
     margin: 0px auto;
+    background-color: #FCF5EE;
+    background-image: url(../images/bg.png);
 }
 ul{
     list-style-type: none;
@@ -9,8 +11,158 @@ a{
 }
 .container{
     margin: 0px 280px;
-    min-width: 1300px;
+    max-width: 1300px;
 }
+.nav__menu{
+    
+    width: 100%;
+}
+.nav{
+    padding: 6px 2px;
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;    
+}
+.nav__item{
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item img{
+    align-items: center;
+    padding-right: 10px;
+}
+.nav__item span{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6D6D;    
+}
+.nav__item a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.nav__btn{
+    background-color: #FDA31B;
+    border-radius: 4px;
+    padding: 12px 20px;
+    gap: 10px;  
+}
+.nav__btn a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav__btn span{
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.nav__bottom{
+    background-color: #6D6D6D;
+    height: 50px;
+}
+.menu__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: -25px 0px;
+}
+.manu__main-logo img{
+    width: 192px;
+    height: 100px;
+}
+.menu__phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.menu__phone a{
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 400;
+}
+.menu__phone span{
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+}
+.switch__button{
+    background-color: #aaa;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    width: 271px;
+    height: 40px;    
+    margin: 30px 0px;    
+}
+.switch__on{
+    background-color: #FDA31B;
+    color: #000;
+    padding-right: 28px;
+    
+}
+.switch__off{
+    color: #fff;
+    padding: 12px 20px;
+    position: relative;
+}
+.main__content{
+    padding: 0px 280px;
+    max-width: 1300px;
+}
+.main__nav-top{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.main__nav-top-item{
+    margin-right: 50px;
+}
+.main__nav-top-item a{
+    color: #585858;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     background-color: #585858;
     padding-top: 75px;
