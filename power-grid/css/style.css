@@ -2,6 +2,8 @@ body, html{
     margin: 0px auto;
     background-color: #FCF5EE;
     background-image: url(../images/bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 ul{
     list-style-type: none;
@@ -71,7 +73,7 @@ a{
     justify-content: space-between;
 }
 .logo{
-    margin: -25px 0px;
+    margin: -25px 30px;
 }
 .manu__main-logo img{
     width: 192px;
@@ -117,6 +119,13 @@ a{
     padding: 12px 20px;
     position: relative;
 }
+.main{
+    padding-bottom: 80px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 .main__content{
     padding: 0px 280px;
     max-width: 1300px;
@@ -134,27 +143,174 @@ a{
     font-size: 14px;
     font-weight: 700;
 }
+.news__last{
+    display: flex;
+    flex-direction: column;
+    width: 719px;
+    height: 450px;
+}
+.news__all{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news__all a{
+    color: #FDA31B;
+    font-size: 16px;
+    font-weight: 700;
+}
+.news__frame{
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.news__title{
+    color: #028103;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17.6px;
+}
+.news__text{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.news__date{
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.wrapper{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 700px 400px;
+}
+.weapper__slider{
+    margin-top: 56px;
+}
+.slider{
+    background: linear-gradient(90.08deg, #048105 -14.49%, rgba(4, 129, 5, 0.72) 100.02%);
+    border-radius: 20px;
+    width: 393px;
+    height: 353px;
+}
+.slider__frame-top{
+    gap: 30px;
+    padding: 0px 30px;
+    padding-top: 50px;
+}
+.slider__text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.slider__btn{
+    background-color: #FBA119;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 150px;
+}
+.slider__btn a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15.4px;
+    color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.slider__frame-bottom span{
+    background-color: #D9D9D9;
+    opacity: 1;
+    width: 11px;
+    height: 11px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.services{
+    margin-top: 110px;
+    margin-bottom: 25px;
+}
+.services__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services__item{
+    width: 250px;
+    height: 67px;
+    position: relative;
+    background-color: #EBEBEC;
+    padding: 20px;
+    padding-top: 30px;
+    gap: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    flex-direction: column;
+    display: flex;
+}
+.services__item span{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.services__item a{
+    color: #FBA119;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.services__item-img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.menu__banner{
+    background-color: #EBEBEC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    height: 130px;   
+    margin-bottom: 80px;
+}
+.menu__banner span{
+    color: #FBA119;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+}
+.menu__banner a{
+    color: #585858;
+    padding-left: 70px;
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+}
+.menu__banner a::before{
+    content: "";
+    background-image: url(../images/icons/questions.svg);
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -10px;
+    top: -10px;
+    width: 65px;
+    height: 42px
+}
 
 
 
@@ -225,15 +381,6 @@ a{
     line-height: 20px;
     font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
 .footer__bottom{
     padding-top: 30px;
     display: flex;
